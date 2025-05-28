@@ -6,7 +6,7 @@
 #    By: isam-alv <isam-alv@student.42berlin.d      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/05/16 14:38:46 by isam-alv          #+#    #+#              #
-#    Updated: 2025/05/28 17:16:51 by isam-alv         ###   ########.fr        #
+#    Updated: 2025/05/28 23:00:39 by isam-alv         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -20,7 +20,7 @@ SRCS = ft_atoi.c ft_bzero.c ft_calloc.c ft_isalnum.c ft_isalpha.c \
 
 OBJS = $(SRCS:.c=.o)
 
-BSRCS = ft_lstnew.c ft_lstadd_front.c ft_lstsize.c
+BSRCS = ft_lstnew.c ft_lstadd_front.c ft_lstsize.c ft_lstlast.c
 
 BOBJS = $(BSRCS:.c=.o)
 

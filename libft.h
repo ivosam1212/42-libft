@@ -6,7 +6,7 @@
 /*   By: isam-alv <isam-alv@student.42berlin.d      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/12 17:04:47 by isam-alv          #+#    #+#             */
-/*   Updated: 2025/05/28 17:16:40 by isam-alv         ###   ########.fr       */
+/*   Updated: 2025/05/28 23:01:19 by isam-alv         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -59,4 +59,5 @@ void	ft_putnbr_fd(int n, int fd);
 t_list	*ft_lstnew(void *content);
 void	ft_lstadd_front(t_list **lst, t_list *new);
 int		ft_lstsize(t_list *lst);
+t_list	*ft_lstlast(t_list *lst);
 #endif

@@ -6,7 +6,7 @@
 /*   By: isam-alv <isam-alv@student.42berlin.d      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/15 14:32:24 by isam-alv          #+#    #+#             */
-/*   Updated: 2025/05/27 14:37:51 by isam-alv         ###   ########.fr       */
+/*   Updated: 2025/05/28 22:53:26 by isam-alv         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ char	*ft_strnstr(const char *big, const char *little, size_t len)
 	little_len = ft_strlen(little);
 	if (little_len == 0)
 		return ((char *)big);
-	while (*big && len >= little_len) 
+	while (*big && len >= little_len)
 	{
 		if (*big == *little && !ft_strncmp(big, little, little_len))
 			return ((char *)big);
